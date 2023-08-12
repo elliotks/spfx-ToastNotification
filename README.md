@@ -52,13 +52,13 @@ Installation complete. If you want to use this version, type
 nvm use 16.20.2
 ```
 
-3.) Use Node.js version 16.20.2
+3. Use Node.js version 16.20.2
 
 ```
 nvm use 16.20.2
 ```
 
-4.) Install yo which is used for creating a new SharePoint Framework project.
+4. Install yo which is used for creating a new SharePoint Framework project.
 
 ```
 npm install yo --global
@@ -135,11 +135,9 @@ Changes to package.json were detected.
 
 ℹ You can use `npm shrinkwrap` to lock down the versions of your project's dependencies, including transitive dependencies, to ensure that everyone working on the project is using the same versions. This can help prevent issues that can arise from using different versions of the same dependency, such as compatibility issues or bugs. The `npm shrinkwrap` command generates a `npm-shrinkwrap.json` file that lists the exact versions of all dependencies and their transitive dependencies, which can be committed to your version control system to ensure consistency across all environments.
 
-7.)
-npm shrinkwrap
+7.  npm shrinkwrap
 
-8.)
-npm install react-toast-notifications
+8.  npm install react-toast-notifications
 
 ℹ To create or edit a SharePoint web part, you need to work with several files. Here are some of the key files you may need to create or edit:
 
@@ -153,8 +151,7 @@ npm install react-toast-notifications
 
 You may also need to create or edit other files depending on the specific requirements of your web part.
 
-9.)
-Replace contents of SpfxToast.tsx located in - .\spfx-ToastNotification\src\webparts\spfxToast\components\SpfxToast.tsx
+9.  Replace contents of SpfxToast.tsx located in - .\spfx-ToastNotification\src\webparts\spfxToast\components\SpfxToast.tsx
 
 ```
 import * as React from "react";
@@ -171,8 +168,7 @@ export default class SpfxToast extends React.Component<ISpfxToastProps, {}> {
 }
 ```
 
-10.)
-Add file Reacttoast.tsx located at - .\spfx-ToastNotification\src\webparts\spfxToast\components\Reacttoast.tsx
+10. Add file Reacttoast.tsx located at - .\spfx-ToastNotification\src\webparts\spfxToast\components\Reacttoast.tsx
 
 ```
 import * as React from "react";
@@ -238,7 +234,7 @@ export const MyReactToast: React.FC<MyReactToastProps> = ({ mycontent }) => (
 );
 ```
 
-11.) build your solution using gulp
+11. build your solution using gulp
 
 ```
 gulp bundle --ship ; gulp package-solution --ship
