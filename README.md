@@ -1,6 +1,6 @@
 ## spfx-ToastNotification
 
-Sharepoint Toast Notification (POC)
+Sharepoint Toast Notification (POC) - currently not for production use.
 
 ## Used SharePoint Framework Version
 
