@@ -76,9 +76,37 @@ npm install gulp --global
 yo @microsoft/sharepoint
 ```
 
-Example Output, see bold green text items for input used.
+7. Follow the prompts
+   What is your solution name?
 
-```PS D:\Git\spfx-ToastNotification> yo @microsoft/sharepoint
+```
+spfx-toast-notification
+```
+
+Which type of client-side component to create?
+
+```
+WebPart
+```
+
+Add new Web part to solution spfx-toast-notification.
+
+What is your Web part name?
+
+```
+SpfxToast
+```
+
+Which template would you like to use?
+
+```
+React
+```
+
+Example Output
+
+```
+PS D:\Git\spfx-ToastNotification> yo @microsoft/sharepoint
 
      _-----_     ╭──────────────────────────╮
     |       |    │ Welcome to the Microsoft │
@@ -161,7 +189,7 @@ You may also need to create or edit other files depending on the specific requir
 
 9.  Replace contents of SpfxToast.tsx located in - .\spfx-ToastNotification\src\webparts\spfxToast\components\SpfxToast.tsx
 
-```
+```ts
 import * as React from "react";
 import { ISpfxToastProps } from "./ISpfxToastProps";
 import { MyReactToast } from "./Reacttoast";
@@ -169,7 +197,7 @@ export default class SpfxToast extends React.Component<ISpfxToastProps, {}> {
   public render(): React.ReactElement<ISpfxToastProps> {
     return (
       <div>
-        <MyReactToast mycontent={"Hello it's Madhan"} />
+        <MyReactToast mycontent={"Hello... is it me you're looking for?"} />
       </div>
     );
   }
@@ -178,7 +206,7 @@ export default class SpfxToast extends React.Component<ISpfxToastProps, {}> {
 
 10. Add file Reacttoast.tsx located at - .\spfx-ToastNotification\src\webparts\spfxToast\components\Reacttoast.tsx
 
-```
+```ts
 import * as React from "react";
 import { ToastProvider, useToasts } from "react-toast-notifications";
 interface ToastDemoProps {
@@ -250,7 +278,7 @@ gulp bundle --ship ; gulp package-solution --ship
 
 Example Output
 
-```
+```powershell
 PS D:\Git\spfx-ToastNotification> gulp bundle --ship ; gulp package-solution --ship
 Build target: SHIP
 [20:52:23] Using gulpfile D:\Git\spfx-ToastNotification\gulpfile.js
