@@ -135,9 +135,17 @@ Changes to package.json were detected.
 
 ℹ You can use `npm shrinkwrap` to lock down the versions of your project's dependencies, including transitive dependencies, to ensure that everyone working on the project is using the same versions. This can help prevent issues that can arise from using different versions of the same dependency, such as compatibility issues or bugs. The `npm shrinkwrap` command generates a `npm-shrinkwrap.json` file that lists the exact versions of all dependencies and their transitive dependencies, which can be committed to your version control system to ensure consistency across all environments.
 
-7.  npm shrinkwrap
+7.  Lock down the versions of your project's dependencies
 
-8.  npm install react-toast-notifications
+```
+npm shrinkwrap
+```
+
+8. Install [react-toast-notification](https://www.npmjs.com/package/react-toast-notifications) NPM.
+
+```
+npm install react-toast-notifications
+```
 
 ℹ To create or edit a SharePoint web part, you need to work with several files. Here are some of the key files you may need to create or edit:
 
