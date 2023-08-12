@@ -77,7 +77,8 @@ yo @microsoft/sharepoint
 ```
 
 7. Follow the prompts
-   What is your solution name?
+
+What is your solution name?
 
 ```
 spfx-toast-notification
