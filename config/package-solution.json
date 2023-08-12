@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-toast-notification-client-side-solution",
+    "id": "14bc2ab7-ca6c-4cc2-a990-a3c0f4a3b8ff",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-toast-notification description"
+      },
+      "longDescription": {
+        "default": "spfx-toast-notification description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-toast-notification Feature",
+        "description": "The feature that activates elements of the spfx-toast-notification solution.",
+        "id": "63520ad0-3630-4f3e-b5ae-9bfb966b3fc4",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-toast-notification.sppkg"
+  }
+}

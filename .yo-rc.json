@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.20.2",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.4",
+    "libraryName": "spfx-toast-notification",
+    "libraryId": "14bc2ab7-ca6c-4cc2-a990-a3c0f4a3b8ff",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfx-toast-notification",
+    "solutionShortDescription": "spfx-toast-notification description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
